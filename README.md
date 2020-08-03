@@ -14,8 +14,8 @@ There is only one core function in upsertR: ```upsert()```, which lets you upser
 
 ```R
 upsert(connection = con,    # SQL server connection string
-       dataframe = df,     # input dataframe
-       schema = schema, # Target schema name on SQL server
-       table = table,  # Target table name on SQL server
-       delete = TRUE) # specifies whether to delete old ID's not present in input DF. TRUE deletes old ID's
+       dataframe  = df,     # input dataframe
+       schema     = schema, # Target schema name on SQL server
+       table      = table,  # Target table name on SQL server
+       delete     = TRUE)   # specifies whether to delete old ID's not present in input DF. TRUE deletes old ID's
 ```

@@ -13,7 +13,7 @@ devtools::install_github('HenrikVarmer/upsertR')
 There is only one core function in upsertR: ```upsert()```, which lets you upsert a dataframe to a target SQL server. See below for an example. 
 
 ```R
-upsert(con,    # SQL server connections string
+upsert(con,    # SQL server connection string
        df,     # input dataframe
        schema, # Target schema name on SQL server
        table,  # Target table name on SQL server

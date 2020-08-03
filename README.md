@@ -10,5 +10,5 @@ devtools::install_github('HenrikVarmer/upsertR')
 ```
 
 # Functions 
-There is only one core function in upsertR: upsert(), which lets you upsert a dataframe to a target SQL server. See below for an example. 
+There is only one core function in upsertR: ```Rupsert()```, which lets you upsert a dataframe to a target SQL server. See below for an example. 
 

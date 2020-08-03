@@ -12,3 +12,10 @@ devtools::install_github('HenrikVarmer/upsertR')
 # Functions 
 There is only one core function in upsertR: ```Rupsert()```, which lets you upsert a dataframe to a target SQL server. See below for an example. 
 
+```R
+upsert(con,    # SQL server connections string
+       df,     # input dataframe
+       schema, # Target schema name on SQL server
+       table,  # Target table name on SQL server
+       delete = TRUE) # specifies whether to delete old ID's not present in input DF. TRUE deletes old ID's
+```

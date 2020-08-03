@@ -8,7 +8,7 @@
 #' @return status code: 0 eq. no error, 1 if error during write.
 #' @examples
 #' updateTable(odscon, "dbo", "events")
-updateTable <- function(con, df, schema,table,delete=FALSE){
+upsert <- function(con, df, schema,table,delete=FALSE){
   
   tablename = paste(schema,table, sep = ".")
   

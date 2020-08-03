@@ -4,7 +4,7 @@ upsertR is a simple R package that supports *upserting* an R dataframe to a targ
 # Installing upsertR
 Install the package directly from github with devtools. Run the first line if you do not currently have devtools installed.
 
-# install.packages('devtools') 
+install.packages('devtools') 
 devtools::install_github('HenrikVarmer/upsertR')
 
 # Functions 

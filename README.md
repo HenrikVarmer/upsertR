@@ -10,7 +10,7 @@ devtools::install_github('HenrikVarmer/upsertR')
 ```
 
 # Functions 
-There is only one core function in upsertR: ```upsert()```, which lets you upsert a dataframe to a target SQL server. See below for an example. 
+There is only one core function in upsertR: ```upsert()```, which lets you upsert a dataframe to a target SQL server. The below example will upsert data ```df``` to server connection ```con``` to target table ods.events.
 
 ```R
 upsert(connection = con,    # SQL server connection string

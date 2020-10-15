@@ -1,5 +1,5 @@
 # upsertR
-upsertR is a simple R package that supports *upserting* an R dataframe to a target SQL server. The package relies on the DBI package for handling connections and tables. 
+upsertR is a simple R wrapper that supports *upserting* an R dataframe to a target SQL server. The package relies on the DBI package for handling connections and tables. 
 
 # Installing upsertR
 Install the package directly from github with devtools. Run the first line if you do not currently have devtools installed. 

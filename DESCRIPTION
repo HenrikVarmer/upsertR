@@ -1,0 +1,21 @@
+Package: upsertR
+Title: Upsert R Data Frames into SQL Server Tables
+Version: 0.1.0
+Authors@R:
+    person("Henrik", "Varmer", role = c("aut", "cre"),
+           email = "henrik.varmer@example.com")
+Description: A small wrapper that "upserts" an R data frame into a target
+    SQL Server table using a T-SQL MERGE statement. The data frame is written
+    to a staging table, the target table's keys and columns are introspected
+    from INFORMATION_SCHEMA, and a MERGE is executed to insert, update and
+    optionally delete rows in a single transaction.
+Imports:
+    DBI
+Suggests:
+    testthat (>= 3.0.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+URL: https://github.com/HenrikVarmer/upsertR
+BugReports: https://github.com/HenrikVarmer/upsertR/issues
